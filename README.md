@@ -33,6 +33,7 @@ public class GameOfLife {
     
 } 
 
+
 1. Use the `clearScreen()` method provided in the starter code will clear the screen so that the patterns may appear as smooth transition
 
 1. `Thread.sleep` will pause the game if automation is selected.
