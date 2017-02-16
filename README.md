@@ -38,3 +38,4 @@ public class GameOfLife {
 1. `Thread.sleep` will pause the game if automation is selected.
 
 1. Use best practices and clean code
+1. Add the yml file (change as needed) so that Travis will run your tests
