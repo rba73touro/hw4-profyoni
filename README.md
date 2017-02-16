@@ -14,7 +14,7 @@ transition from one state to another is a user option to either
 1. automate at a generation per 500 ms
 2. based on user hitting a key
 
-__Using a threadPool. divide the task of computing the next generation of the board using 5 threads__
+__Using a threadPool divide the task of computing the next generation of the board using 25 threads. Set the thread pool size to 10 so that additional threads will be queued up until a thread  is available for execution. Also, when a new thread begins and ends execution, it should output to the console that is has begun and ended, respectively__
 
 ## Note
 
@@ -32,8 +32,7 @@ public class GameOfLife {
     }
     
 } 
-
-
+```
 1. Use the `clearScreen()` method provided in the starter code will clear the screen so that the patterns may appear as smooth transition
 
 1. `Thread.sleep` will pause the game if automation is selected.
