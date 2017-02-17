@@ -1,4 +1,4 @@
-# 364_5_ConwayGameOfLife Conway's Game Of Life
+# 364_5_ConwayGameOfLife Conway's Game Of Life 
 
 Implement Conway's Game of Life as a console app. See  https://en.wikipedia.org/wiki/Conway's_Game_of_Life for details.
 
