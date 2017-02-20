@@ -4,17 +4,25 @@ import java.awt.Robot;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static mco364.GameOfLife.XX;
+import static mco364.GameOfLife.__;
+
 public class Main {
+
+
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
         clearConsole();
 
+        GameOfLife life = new GameOfLife(9);
+        life.seed(GameOfLife.beaconPattern);
+
         for (int i = 0; i < 10; i++) {
-            System.out.println(i);
+            System.out.println(life);
+            life.updateToNextGenerationMT(7);
             sleep(1000);
             clearConsole();
         }
