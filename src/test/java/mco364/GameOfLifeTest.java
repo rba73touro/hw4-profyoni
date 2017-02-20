@@ -13,7 +13,7 @@ public class GameOfLifeTest {
 
     @Before
     public void init() {
-        life = new GameOfLife();
+        life = new GameOfLife(); 
         life.seed(GameOfLife.blinkerPattern);
     }
 
